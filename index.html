@@ -4,16 +4,31 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-  <title>Unify | Creative One Page Theme</title>
+  <title>Tasty Tadka | Adding spicies to world cuisine</title>
 
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Tasty Tadka redefines worls cuisine by adding spices to world fast food.">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/img/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- Web Fonts -->
   <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
@@ -21,9 +36,11 @@
   <!-- CSS Global Compulsory -->
   <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/one.style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- CSS Footer -->
-  <link rel="stylesheet" href="assets/css/footers/footer-v7.css">
+	<link rel="stylesheet" href="assets/css/headers/header-v6.css">
+	<link rel="stylesheet" href="assets/css/footers/footer-v1.css">
 
   <!-- CSS Implementing Plugins -->
   <link rel="stylesheet" href="assets/plugins/animate.css">
@@ -50,54 +67,97 @@
 The #page-top ID is part of the scrolling feature.
 The data-spy and data-target are part of the built-in Bootstrap scrollspy function.
 -->
-<body id="body" data-spy="scroll" data-target=".one-page-header" class="demo-lightbox-gallery">
+<body id="body" class="header-fixed header-fixed-space">
+  	<div class="wrapper">
+  		<!--=== Header v6 ===-->
+  		<div class="header-v6 header-classic-white header-sticky">
+  			<!-- Navbar -->
+  			<div class="navbar mega-menu" role="navigation">
+  				<div class="container">
+  					<!-- Brand and toggle get grouped for better mobile display -->
+  					<div class="menu-container">
+  						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+  							<span class="sr-only">Toggle navigation</span>
+  							<span class="icon-bar"></span>
+  							<span class="icon-bar"></span>
+  							<span class="icon-bar"></span>
+  						</button>
 
-  <!--=== Header ===-->
-  <nav class="one-page-header one-page-header-style-2 navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="menu-container page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  						<!-- Navbar Brand -->
+  						<div class="navbar-brand">
+  							<a href="index.html">
+  								<img class="shrink-logo" src="assets/img/logo1.png" alt="Logo">
+  							</a>
+  						</div>
+  						<!-- ENd Navbar Brand -->
 
-        <a class="navbar-brand" href="#intro">
-          <img src="assets/img/logo1.png" alt="Logo">
-        </a>
-      </div>
+  						<!-- Header Inner Right
+  						<div class="header-inner-right">
+  							<ul class="menu-icons-list">
+  								<li class="menu-icons shopping-cart">
+  									<i class="menu-icons-style radius-x fa fa-shopping-cart"></i>
+  									<span class="badge">0</span>
+  									<div class="shopping-cart-open">
+  										<span class="shc-title">No products in the Cart</span>
+  										<button type="button" class="btn-u"><i class="fa fa-shopping-cart"></i> Cart</button>
+  										<span class="shc-total">Total: <strong>$0.00</strong></span>
+  									</div>
+  								</li>
+  								<li class="menu-icons">
+  									<i class="menu-icons-style search search-close search-btn fa fa-search"></i>
+  									<div class="search-open">
+  										<input type="text" class="animated fadeIn form-control" placeholder="Start searching ...">
+  									</div>
+  								</li>
+  							</ul>
+  						</div>
+  						<!-- End Header Inner Right -->
+  					</div>
 
-      <div class="top-contact-block">
-        <i class="fa fa-phone fa-1"></i> <a href="tel:0 800 2000 123">416 318 5665</a>
-      </div>
+  					<!-- Collect the nav links, forms, and other content for toggling -->
+  					<div class="collapse navbar-collapse navbar-responsive-collapse">
+  						<div class="menu-container">
+  							<ul class="nav navbar-nav">
+  								<!-- About -->
+  								<li class="page-scroll">
+  									<a href="#about">
+  										About
+  									</a>
+  								</li>
+  								<!-- End About -->
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <div class="menu-container">
-          <ul class="nav navbar-nav pull-right">
-            <li class="page-scroll">
-              <a href="#about">About Us</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#catering">Catering</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#menu">Menu</a>
-            </li>
-            <li class="page-scroll">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
+  								<!-- Catering -->
+  								<li class="page-scroll">
+  									<a href="#catering">
+  										Catering
+  									</a>
+  								</li>
+  								<!-- End Catering -->
 
-  </nav>
-  <!--=== End Header ===-->
+  								<!-- Menu -->
+  								<li class="page-scroll">
+  									<a href="#menu">
+  										Menu
+  									</a>
+  								</li>
+  								<!-- End Menu -->
 
+  								<!-- Contact -->
+  								<li class="page-scroll">
+  									<a href="#contact">
+  										Contact
+  									</a>
+  								</li>
+  								<!-- End Contact -->
+
+  							</ul>
+  						</div>
+  					</div><!--/navbar-collapse-->
+  				</div>
+  			</div>
+  			<!-- End Navbar -->
+  		</div>
+  		<!--=== End Header v6 ===-
   <!-- Promo block BEGIN -->
   <section class="promo-section" id="intro">
     <!-- Fullscreen Static Image BEGIN -->
@@ -129,53 +189,58 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     <div class="bg-grey content-sm">
     	<div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="responsive-video margin-bottom-30">
-              <iframe src="http://player.vimeo.com/video/47911018" width="530" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          <div class="col-md-3">
+            <div>
+              <img src="assets/img/madhuri1.jpg" alt="Madhuri's Picture With Food." height="300px" />
             </div>
           </div>
-          <div class="col-md-6">
-            <h2 class="title-v2">About Us</h2>
-            <p>
+          <div class="col-md-9" style="align:center;">
+            <h3>
               We put unique flavors and healthy spices into traditional fast food (called Tadka) to make it Tasty and Healthy.
               Our aim is to innovate fast food experience with Indian Fusion.
+            </h3>
+            <h3>
               Allow vegetarians and meat lovers to enjoy our healthy vegetarion fusion mealboxes as part of their daily lunch.
-            </p>
-            <a href="#" class="btn-u btn-brd btn-brd-hover btn-u-dark">Read More</a>
-            <a href="#" class="btn-u">Purchase Now</a>
+            </h3>
+            <h3>
+              Our customers love us; Here is what we they have to say about us ...
+            </h3>
+
+            <!-- Parallax Twitter -->
+            <div id="testimonials" class="parallax no-before-bg-img parallaxBg">
+              <div class="container">
+
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <ul class="list-unstyled owl-twitter-v1">
+                      <li class="item norwester">
+                        <h2>“There are a lot of flavors packed into a bite”</h2>
+                      </li>
+                      <li class="item">
+                        <h2>“Bizarre to think about, delicious to experience”</h2>
+                      </li>
+                      <li class="item">
+                        <h2>"It was very flavorful, enjoyed it!"</h2>
+                      </li>
+                      <li class="item">
+                        <h2>“Thoroughly enjoyed the meal. Not too heavy, perfectly light and flavorful”</h2>
+                      </li>
+                      <li class="item">
+                        <h2>“We ordered from Tasty Tadka several times, and we can't wait for the next time”</h2>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Parallax Twitter -->
+
+
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Parallax Twitter -->
-    <div class="parallax-twitter no-before-bg-img parallaxBg">
-      <div class="container parallax-twitter-in">
-        <div class="margin-bottom-30">
-          <i class="icon-custom rounded-x icon-bg-blue fa fa-twitter"></i>
-        </div>
-
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <ul class="list-unstyled owl-twitter-v1">
-              <li class="item">
-                <p>Unify has reached 10000 plus sales and we just want to thank you to our all customers for being part of the Unify Template success <a href="http://bit.ly/1c0UN3Y">http://bit.ly/1c0UN3Y</a><p>
-                <span>3 min ago via <a href="https://twitter.com/htmlstream">@htmlstream</a></span>
-              </li>
-              <li class="item">
-                <p><a href="#">@htmlstream</a> jQuery lightGallery - Lightweight jQuery lightbox gallery for displaying image and video gallery <a href="#">http://sachinchoolur.github.io/lightGallery</a> <a href="#">#javascript</a></p>
-                <span>10 min ago Retweeted by <a href="https://twitter.com/htmlstream">@twbootstrap</a></span>
-              </li>
-              <li class="item">
-                <p>New 100% Free Stock Photos. Every. Single. Day. Everything you need for your creative projects. <a href="#">http://publicdomainarchive.com</a></p>
-                <span>30 min ago via <a href="https://twitter.com/htmlstream">@wrapbootstrap</a></span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </div>
-    <!-- End Parallax Twitter -->
 
   </section>
   <!-- End Colorful Service Blocks -->
@@ -190,7 +255,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
         <p>Try us for your next party. Online order will get 10% off.</p>
       </div>
       <div class="img-center">
-        <img class="img-responsive" src="assets/img/lunchbox.jpg" alt="">
+        <img class="img-responsive" src="assets/img/lunchbox.png" alt="">
       </div>
       <br/>
     </div>
@@ -214,22 +279,22 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <div>
               <!-- <i class="icon-custom icon-md rounded-x icon-bg-u icon-line icon-trophy"></i> -->
               <div class="content-boxes-in-v3">
-                <h1 class="heading-sm">Chose Your Cuisine</h1>
+                <h1 class="heading-sm oswald" >Chose Your Cuisine</h1>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Italian Pasta</h2>
+                <h2 class="heading-sm norwester">Italian Pasta</h2>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Chinese Noodles</h2>
+                <h2 class="heading-sm norwester">Chinese Noodles</h2>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Mexican Rice</h2>
+                <h2 class="heading-sm norwester">Mexican Rice</h2>
               </div>
             </div>
           </div>
@@ -240,22 +305,22 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <div class="clearfix margin-bottom-30">
               <!-- <i class="icon-custom icon-md rounded-x icon-bg-u icon-line icon-trophy"></i> -->
               <div class="content-boxes-in-v3">
-                <h1 class="heading-sm">Chose Your Authentic Indian Curry</h1>
+                <h1 class="heading-sm oswald">Chose Your Authentic Indian Curry</h1>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Chickpea Masala</h2>
+                <h2 class="heading-sm norwester">Chickpea Masala</h2>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Mixed Vegetable Curry</h2>
+                <h2 class="heading-sm norwester">Mixed Vegetable Curry</h2>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Paneer Tikka Masala</h2>
+                <h2 class="heading-sm norwester">Paneer Tikka Masala</h2>
               </div>
             </div>
           </div>
@@ -266,29 +331,27 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
         <div class="row">
           <div class="col-md-6">
-            <img class="img-responsive" src="assets/img/menu/menu-3.jpg" alt="">
+            <img class="img-responsive" src="assets/img/menu/menu-3.png" alt="">
           </div>
           <div class="col-md-6 content-boxes-v3 padding-top-20">
             <div class="clearfix margin-bottom-30">
               <!-- <i class="icon-custom icon-md rounded-x icon-bg-u icon-line icon-trophy"></i> -->
               <div class="content-boxes-in-v3">
-                <h1 class="heading-sm">Chose Your Condiments</h1>
+                <h1 class="heading-sm oswald">Chose Your Condiments</h1>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Mint & Coriander Chutney</h2>
+                <h2 class="heading-sm norwester">Mint & Coriander Chutney</h2>
               </div>
             </div>
             <div class="clearfix margin-bottom-30">
               <div class="content-boxes-in-v3">
-                <h2 class="heading-sm">Date & Tamarind Chutney</h2>
+                <h2 class="heading-sm norwester">Date & Tamarind Chutney</h2>
               </div>
             </div>
           </div>
         </div>
-
-        <h1 align="center"> ** All Dishes come with fresh spring salad. </h1>
 
       </div>
     </div>
@@ -302,8 +365,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
     <div class="container content">
       <div class="title-v1">
         <h2>Contact Us</h2>
-        <p>We do <strong>things</strong> differently company providing key digital services. <br>
-        Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
+        <p>.</p>
         <p>
           <a href="tel:+14163185665" class="btn-u">
             <i class="fa fa-phone fa-2"></i>  416 318 5665
